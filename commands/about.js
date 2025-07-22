@@ -4,7 +4,7 @@ const { aboutBotEmbed } = require('../embeds/aboutBotEmbed');
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('about')
-        .setDescription('Info about the TimeChief bot'),
+        .setDescription('Info about the TimeSheriff bot'),
 
     async execute(interaction) {
         await interaction.reply({

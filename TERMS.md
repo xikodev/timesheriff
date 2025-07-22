@@ -1,20 +1,20 @@
-# Terms of Service for TimeChief Discord Bot
+# Terms of Service for TimeSheriff Discord Bot
 
 Effective Date: 2025-07-22
 
-Welcome to TimeChief! By using this Discord bot, you agree to the following terms of service (“Terms”). If you do not agree with these Terms, please do not use the bot.
+Welcome to TimeSheriff! By using this Discord bot, you agree to the following terms of service (“Terms”). If you do not agree with these Terms, please do not use the bot.
 
 ---
 
 ## 1. Description
 
-TimeChief is a Discord bot that allows users to set and retrieve timezones, helping communities coordinate time-based interactions more easily. The bot operates within Discord servers and is accessed through Discord's slash command interface.
+TimeSheriff is a Discord bot that allows users to set and retrieve timezones, helping communities coordinate time-based interactions more easily. The bot operates within Discord servers and is accessed through Discord's slash command interface.
 
 ---
 
 ## 2. Eligibility
 
-By using TimeChief, you confirm that you are:
+By using TimeSheriff, you confirm that you are:
 - At least 13 years old or the minimum age required by Discord's own Terms of Service.
 - In compliance with all applicable local laws.
 
@@ -44,7 +44,7 @@ We reserve the right to restrict access to the bot at any time for violations of
 
 ## 5. Availability and Modifications
 
-TimeChief is provided “as is” with no guarantees of uptime, reliability, or continued feature support.  
+TimeSheriff is provided “as is” with no guarantees of uptime, reliability, or continued feature support.  
 We may update, remove, or add features at any time without notice.
 
 ---
@@ -76,4 +76,4 @@ These Terms shall be governed by and construed in accordance with the laws appli
 If you have any questions about these Terms, please contact:
 
 **Email**: borna5krpan@gmail.com
-**GitHub**: https://github.com/xikodev/timechief
+**GitHub**: https://github.com/xikodev/timesheriff

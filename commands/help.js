@@ -11,7 +11,7 @@ module.exports = {
         }).join('\n');
 
         await interaction.reply({
-            content: `🛠️ **TimeChief Commands**\n\n${commandList}\n\nUse \`/settimezone\` first to configure your local time.`,
+            content: `🛠️ **TimeSheriff Commands**\n\n${commandList}\n\nUse \`/settimezone\` first to configure your local time.`,
             flags: MessageFlags.Ephemeral
         });
     },

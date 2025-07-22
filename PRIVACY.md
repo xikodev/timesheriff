@@ -1,15 +1,15 @@
-# Privacy Policy for TimeChief Discord Bot
+# Privacy Policy for TimeSheriff Discord Bot
 
 Effective Date: 2025-07-22  
 Last Updated: 2025-07-22
 
-Thank you for using TimeChief! This Privacy Policy explains how we collect, use, and protect your data when interacting with the TimeChief Discord bot.
+Thank you for using TimeSheriff! This Privacy Policy explains how we collect, use, and protect your data when interacting with the TimeSheriff Discord bot.
 
 ---
 
 ## 1. What Information We Collect
 
-TimeChief collects and stores the following information:
+TimeSheriff collects and stores the following information:
 
 - Your Discord User ID
 - Your selected timezone (via the `/settimezone` command)
@@ -69,6 +69,6 @@ We may occasionally update this policy. Material changes will be announced via t
 
 For privacy-related inquiries, data deletion assistance, or questions about this policy, contact:
 
-**TimeChief**  
+**TimeSheriff**  
 Email: borna5krpan@gmail.com  
-GitHub: https://github.com/xikodev/timechief
+GitHub: https://github.com/xikodev/timesheriff

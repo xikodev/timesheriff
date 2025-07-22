@@ -7,7 +7,7 @@ const aboutBotEmbed = {
         icon_url: 'https://avatars.githubusercontent.com/u/58877412',
         url: 'https://github.com/xikodev',
     },
-    description: 'TimeChief helps your community stay in sync across the globe. It lets users set their timezone, view each other’s local times, and coordinate events effortlessly - no more mental math or missed pings!',
+    description: 'TimeSheriff helps your community stay in sync across the globe. It lets users set their timezone, view each other’s local times, and coordinate events effortlessly - no more mental math or missed pings!',
     thumbnail: {
         url: 'https://cdn.discordapp.com/app-icons/1396929073107832933/b2af08dc2edacaea977fdcc73f6017fe.png',
     },
@@ -29,7 +29,7 @@ const aboutBotEmbed = {
         },
     ],
     footer: {
-        text: 'TimeChief',
+        text: 'TimeSheriff',
         icon_url: 'https://cdn.discordapp.com/app-icons/1396929073107832933/b2af08dc2edacaea977fdcc73f6017fe.png',
     },
     timestamp: new Date().toISOString(),

@@ -1,6 +1,6 @@
-# TimeChief
+# TimeSheriff
 
-**TimeChief** is a lightweight, privacy-conscious Discord bot that helps users manage and view timezones — perfect for global communities, study groups, and gaming guilds.
+**TimeSheriff** is a lightweight, privacy-conscious Discord bot that helps users manage and view timezones — perfect for global communities, study groups, and gaming guilds.
 
 > ⚠️ All user data is private. No analytics, no tracking. Users can remove their data at any time using `/deleteinfo`.
 
@@ -19,7 +19,7 @@
 
 ## 🚀 Getting Started
 
-To add TimeChief to your server, [invite the bot](https://discord.com/oauth2/authorize?client_id=1396929073107832933) with appropriate permissions (use `applications.commands` and `bot` scopes).
+To add TimeSheriff to your server, [invite the bot](https://discord.com/oauth2/authorize?client_id=1396929073107832933) with appropriate permissions (use `applications.commands` and `bot` scopes).
 
 ---
 
