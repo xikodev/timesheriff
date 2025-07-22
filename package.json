@@ -1,0 +1,18 @@
+{
+  "name": "timechief",
+  "version": "1.0.0",
+  "description": "Discord bot for timezones",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Borna Krpan",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.21.0",
+    "dotenv": "^17.2.0",
+    "moment-timezone": "^0.6.0",
+    "mongoose": "^8.16.4",
+    "nodemon": "^3.1.10"
+  }
+}
