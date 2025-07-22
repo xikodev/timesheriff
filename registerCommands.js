@@ -27,19 +27,4 @@ const rest = new REST({ version: '10' }).setToken(process.env.TOKEN);
     } catch (error) {
         console.error(error);
     }
-
-    // try {
-    //     console.log('Deleting / commands...');
-    //
-    //     await rest.put(
-    //         Routes.applicationCommands(process.env.CLIEND_ID),
-    //         {
-    //             body: []
-    //         }
-    //     );
-    //
-    //     console.log('Commands deleted successfully.');
-    // } catch (error) {
-    //     console.error(error);
-    // }
 })();
