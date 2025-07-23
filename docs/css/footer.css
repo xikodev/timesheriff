@@ -1,0 +1,17 @@
+@import 'root.css';
+
+footer {
+    width: calc(100% - 2em);
+    background-color: var(--tertiary-background-color);
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: auto;
+}
+
+footer a {
+    color: var(--primary-color);
+    margin: 0 0.5em;
+}

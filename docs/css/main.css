@@ -1,0 +1,140 @@
+@import 'root.css';
+
+main {
+    margin: 3em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section {
+    width: 100%;
+    padding: 3em 0;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section.about-me {
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+section.about-me article {
+    flex-direction: row;
+}
+
+section.features {
+    background-color: var(--secondary-background-color);
+}
+
+h1 {
+    font-size: 2em;
+}
+
+section article {
+    margin: 1em 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section img {
+    width: 300px;
+    height: 300px;
+}
+
+section p {
+    width: 60%;
+}
+
+section a {
+    padding: 0.5em;
+    margin: 0.5em;
+    text-decoration: none;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+
+main i {
+    font-size: 2em;
+    margin-right: 0.5em;
+}
+
+table td {
+    padding: 0.5em 1em;
+}
+
+span.secondary {
+    color: var(--secondary-color);
+}
+
+span.code {
+    color: #ccc;
+    background-color: #666;
+    padding: 0.25em;
+    border-radius: 0.25em;
+}
+
+@media (width <= 700px) {
+    main {
+        margin: 2em 3%;
+    }
+
+    header h2 {
+        display: none;
+    }
+
+    section {
+        width: 100%;
+        padding: 1em 0;
+    }
+
+    hr {
+        width: 95%;
+    }
+
+    section article {
+        margin: 0
+    }
+
+    section.about-me article {
+        flex-wrap: wrap;
+    }
+
+    section p {
+        width: 90%;
+        text-align: start;
+    }
+
+    section ul {
+        padding: 0;
+    }
+
+    section ul li {
+        flex-wrap: wrap;
+    }
+
+    section ul li h3 {
+        margin: 0 1em;
+    }
+
+    div.links a {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+
+    div.links a i {
+        margin: 0 0 0.25em;
+    }
+}

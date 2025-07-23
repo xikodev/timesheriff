@@ -13,18 +13,29 @@ const aboutBotEmbed = {
     },
     fields: [
         {
+            name: 'Add to your server',
+            value: '[🔗 Invite Link](https://discord.com/oauth2/authorize?client_id=1396929073107832933)',
+            inline: true,
+        },
+        {
+            name: 'Official server',
+            value: '[🔗 Server Link](https://discord.gg/VEnG7xER4v)',
+            inline: true,
+        },
+        {
+            name: 'GitHub Repository',
+            value: '[🔗 Github Link](https://github.com/xikodev/timesheriff)',
+            inline: true,
+        },
+        {
             name: '\u200b',
             value: '\u200b',
             inline: false,
         },
         {
-            name: 'Add to your server',
-            value: '[🔗 Link](https://discord.com/oauth2/authorize?client_id=1396929073107832933)',
-            inline: true,
-        },
-        {
-            name: 'Official server',
-            value: '[🔗 Link](https://discord.gg/VEnG7xER4v)',
+            name: '',
+            value: '[Terms of Services](https://github.com/xikodev/timesheriff/blob/main/TERMS.md)\n' +
+                '[Privacy policy](https://github.com/xikodev/timesheriff/blob/main/PRIVACY.md)',
             inline: true,
         },
     ],
