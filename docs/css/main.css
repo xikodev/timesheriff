@@ -28,10 +28,6 @@ section.about-me article {
     flex-direction: row;
 }
 
-section.features {
-    background-color: var(--secondary-background-color);
-}
-
 h1 {
     font-size: 2em;
 }
@@ -47,6 +43,7 @@ section article {
 section img {
     width: 300px;
     height: 300px;
+    margin-right: 1em;
 }
 
 section p {
@@ -81,6 +78,14 @@ span.code {
     background-color: #666;
     padding: 0.25em;
     border-radius: 0.25em;
+}
+
+a.discord {
+    background-color: var(--discord);
+    color: var(--primary-color);
+    padding: 1em;
+    margin: 0;
+    width: fit-content;
 }
 
 @media (width <= 700px) {

@@ -6,7 +6,7 @@ html {
 
 body {
     margin: 0;
-    background: var(--primary-background-color);
+    background: linear-gradient(180deg, var(--primary-background-color) 20%, var(--secondary-background-color) 55%) fixed;
     color: var(--primary-color);
     font-family: Verdana, sans-serif;
     font-size: 1em;

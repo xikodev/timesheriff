@@ -1,11 +1,9 @@
 :root {
     --primary-background-color: #3A6B89;
-    --secondary-background-color: #555;
-    --tertiary-background-color: #000;
+    --secondary-background-color: #000;
 
     --primary-color: #FFF;
-    --secondary-color: #f9d19e;
-    --tertiary-color: #624930;
+    --secondary-color: #d9ad75;
 
     --secondary-color-hover: #7111D8;
     --tertiary-color-hover: #45C6D7;

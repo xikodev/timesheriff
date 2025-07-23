@@ -2,7 +2,7 @@
 
 footer {
     width: calc(100% - 2em);
-    background-color: var(--tertiary-background-color);
+    background-color: var(--secondary-background-color);
     padding: 1em;
     display: flex;
     justify-content: space-between;

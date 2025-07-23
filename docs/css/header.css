@@ -1,12 +1,12 @@
 @import 'root.css';
 
 header {
+    background-color: var(--primary-background-color);
     width: calc(100% - 2em);
     padding: 1em;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    border-bottom: 1px solid var(--tertiary-background-color);
 }
 
 header img {
