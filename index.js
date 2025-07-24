@@ -64,6 +64,48 @@ client.on('interactionCreate', async interaction => {
 });
 
 
+// Send joined server info
+client.on('guildCreate', async (guild) => {
+    const reportChannelId = '1397960988460060813';
+
+    try {
+        if (guild.nsfw) return;
+
+        const inviteChannel = guild.channels.cache.find(
+            (ch) =>
+                ch.type === 0 && // Text channel
+                ch.permissionsFor(guild.members.me).has(['CreateInstantInvite', 'ViewChannel'])
+        );
+
+        if (!inviteChannel) {
+            console.warn(`No valid channel to create invite in ${guild.name}`);
+            return;
+        }
+
+        const invite = await inviteChannel.createInvite({
+            maxAge: 0, // Permanent
+            maxUses: 0, // Unlimited
+            reason: 'Reporting new server join to home server',
+        });
+
+        const homeChannel = await client.channels.fetch(reportChannelId);
+
+        if (!homeChannel || homeChannel.type !== 0) {
+            console.warn('Report channel not found or invalid.');
+            return;
+        }
+
+        await homeChannel.send(
+            `🛰️ I've just joined a new server: **${guild.name}**\n📨 Invite link: ${invite.url}`
+        );
+
+        console.log(`Reported new server join: ${guild.name}`);
+    } catch (error) {
+        console.error('Error reporting guild join:', error);
+    }
+});
+
+
 // Activity status
 client.on('ready', () => {
     console.log('Bot ' + client.user.username + ' is ready to use.');
