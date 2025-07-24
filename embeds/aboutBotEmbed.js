@@ -9,7 +9,7 @@ const aboutBotEmbed = {
     },
     description: 'TimeSheriff helps your community stay in sync across the globe. It lets users set their timezone, view each other’s local times, and coordinate events effortlessly - no more mental math or missed pings!',
     thumbnail: {
-        url: 'https://cdn.discordapp.com/app-icons/1396929073107832933/b2af08dc2edacaea977fdcc73f6017fe.png',
+        url: 'https://cdn.discordapp.com/app-icons/1396929073107832933/e2217f35d7599890b47519777141c818.png',
     },
     fields: [
         {
@@ -41,7 +41,7 @@ const aboutBotEmbed = {
     ],
     footer: {
         text: 'TimeSheriff',
-        icon_url: 'https://cdn.discordapp.com/app-icons/1396929073107832933/b2af08dc2edacaea977fdcc73f6017fe.png',
+        icon_url: 'https://cdn.discordapp.com/app-icons/1396929073107832933/e2217f35d7599890b47519777141c818.png',
     },
     timestamp: new Date().toISOString(),
 };
