@@ -15,7 +15,7 @@ module.exports = {
         const user = interaction.options.getUser('user');
         const targetId = user.id;
 
-        const userData = await User.findOne({ userId: targetId });
+        const userData = await User.get(targetId);
 
         if (!userData) {
             return interaction.reply({

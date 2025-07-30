@@ -37,7 +37,7 @@ We **do not** share, sell, or transfer your data to third parties. All data is u
 
 ## 4. Data Storage and Security
 
-All information is securely stored in a private MongoDB database. Access to the database is restricted and protected using authentication credentials.
+All information is securely stored in a private MySQL database. Access to the database is restricted and protected using authentication credentials.
 
 Reasonable security measures are in place to prevent unauthorized access, alteration, or destruction of data.
 

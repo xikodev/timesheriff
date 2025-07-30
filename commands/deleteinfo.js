@@ -1,5 +1,5 @@
 const { SlashCommandBuilder, MessageFlags } = require('discord.js');
-const User = require('../models/User');
+const {User} = require('../models/User');
 
 module.exports = {
     data: new SlashCommandBuilder()
@@ -10,9 +10,7 @@ module.exports = {
         const userId = interaction.user.id;
 
         try {
-            await User.deleteOne(
-                { userId },
-            );
+            await User.delete(userId);
 
             return interaction.reply({
                 content: `✅ Your information has been deleted.`,

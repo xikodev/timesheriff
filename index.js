@@ -1,6 +1,6 @@
 require('dotenv').config();
 const { Client, Collection, IntentsBitField, ActivityType, MessageFlags } = require('discord.js');
-const { mongoose } = require('mongoose');
+const mysql = require('mysql2')
 const fs = require('fs');
 
 
@@ -24,13 +24,17 @@ for (const file of commandFiles) {
 }
 
 
-// MongoDB connection
+// MySQL connection
 try {
-    const dbURI = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@${process.env.DB_NAME}.2goqqlc.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`;
-    mongoose.connect(dbURI);
-    console.log('Connected to MongoDB');
+    mysql.createConnection({
+        host: process.env.DB_HOST,
+        user: process.env.DB_USER,
+        password: process.env.DB_PASSWORD,
+        database: process.env.DB_NAME,
+    });
+    console.log('Connected to MySQL');
 } catch(error) {
-    console.error('MongoDB connection error:', error);
+    console.error('MySQL connection error:', error);
 }
 
 

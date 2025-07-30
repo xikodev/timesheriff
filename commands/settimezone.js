@@ -16,19 +16,25 @@ module.exports = {
         ),
 
     async execute(interaction) {
-        const tz = interaction.options.getString('timezone');
+        let tz = interaction.options.getString('timezone');
         const userId = interaction.user.id;
 
         if (!moment.tz.zone(tz)) {
             return interaction.reply({ content: '❌ Invalid timezone.', ephemeral: true });
         }
 
+        if (tz.includes('/')) {
+            tz = tz
+                .split('/')
+                .map(part => part.charAt(0).toUpperCase() + part.slice(1).toLowerCase())
+                .join('/');
+        } else {
+            tz = tz.toUpperCase();
+        }
+
+
         try {
-            await User.findOneAndUpdate(
-                { userId },
-                { timezone: tz },
-                { upsert: true, new: true }
-            );
+            await new User(userId, tz).save();
 
             return interaction.reply({
                 content: `✅ Your timezone has been set to **${tz}**.`,

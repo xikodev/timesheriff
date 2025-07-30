@@ -34,5 +34,5 @@ To add TimeSheriff to your server, [invite the bot](https://discord.com/oauth2/a
 ## 📦 Tech Stack
 
 - [discord.js](https://discord.js.org/) for bot interactions
-- [MongoDB](https://www.mongodb.com/) + Mongoose for secure data storage
+- [MySQL](https://www.mysql.com/) for secure data storage
 - [moment-timezone](https://momentjs.com/timezone/) for timezone logic
