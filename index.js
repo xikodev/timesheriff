@@ -115,8 +115,8 @@ client.on('ready', () => {
     console.log('Bot ' + client.user.username + ' is ready to use.');
 
     client.user.setActivity({
-        name: 'timezones',
-        type: ActivityType.Listening
+        name: 'timesheriff.xyz | /help',
+        type: ActivityType.Playing
     });
 });
 
