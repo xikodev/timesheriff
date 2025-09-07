@@ -73,8 +73,6 @@ client.on('guildCreate', async (guild) => {
     const reportChannelId = '1397960988460060813';
 
     try {
-        if (guild.nsfw) return;
-
         const inviteChannel = guild.channels.cache.find(
             (ch) =>
                 ch.type === 0 && // Text channel
@@ -116,7 +114,7 @@ client.on('ready', () => {
 
     client.user.setActivity({
         name: 'timesheriff.xyz | /help',
-        type: ActivityType.Playing
+        type: ActivityType.Custom
     });
 });
 
