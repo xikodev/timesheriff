@@ -9,13 +9,18 @@ module.exports = {
         .addUserOption(option =>
             option.setName('user')
                 .setDescription('User to check timezone of')
-                .setRequired(true)),
+                .setRequired(false)),
 
     async execute(interaction) {
         const user = interaction.options.getUser('user');
         const targetId = user.id;
+        let userData;
 
-        const userData = await User.get(targetId);
+        if (targetId == null) {
+            userData = await User.get(interaction.user.id);
+        } else {
+            userData = await User.get(targetId);
+        }
 
         if (!userData) {
             return interaction.reply({
